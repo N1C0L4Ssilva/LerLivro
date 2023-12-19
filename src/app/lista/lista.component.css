@@ -1,0 +1,15 @@
+main{
+    padding-top: 25px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.Lista{
+    width: 90%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+}
