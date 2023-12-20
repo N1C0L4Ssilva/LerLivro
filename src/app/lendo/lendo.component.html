@@ -1,1 +1,29 @@
-<p>lendo works!</p>
+<main>
+    <span class="Palavra">{{Plv_Atu}}</span>
+    <div class="Botoes">
+        <div class="Sair">
+            <button (click)="Sair()">SAIR</button>
+        </div>
+        <div class="Stop">
+            <button (click)="Restart()"></button>
+            <span></span>
+            <!-- QUADRADO -->
+        </div>
+        <div class="Pouse">
+            <button (click)="Pausar()"></button>
+            <span></span>
+            <span></span>
+            <!-- 2 BARRA -->
+        </div>
+        <div class="Play">
+            <button (click)="ComecarLeitura()">PLAY</button>
+            <!-- TRIANGULO -->
+        </div>
+        <div class="Conf">
+            <button>CONF</button>
+            <!-- ENGRENAGEM -->
+        </div>
+    </div>
+    <span class="PPM">{{PPM_Atu}} / {{PPM_Max}} P.P.M</span>
+    <span class="PPM">{{UltimaLetra}} / {{TextoTratado.length}} PALAVRAS</span>
+</main>    
